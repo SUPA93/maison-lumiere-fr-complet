@@ -1,0 +1,20 @@
+MAISON LUMIÈRE — lancement local
+================================
+
+1. Dézippez ce dossier
+2. Lancez :  python3 serve.py      (Windows : py serve.py)
+3. Ouvrez :  http://localhost:8000
+
+IMPORTANT : utilisez serve.py plutôt que "python -m http.server".
+Le module standard ne gère pas les requêtes HTTP Range, ce qui
+empêcherait le scrubbing vidéo du héros. serve.py les gère.
+(Le site charge aussi le clip héros en mémoire, donc il
+fonctionnera sur n importe quel hébergeur en production.)
+
+media/
+  clip1.mp4  — clip Seedance 2.0 (héros, ré-encodé images-clés denses
+               pour un scrubbing fluide). Les histoires et l À propos
+               l empruntent automatiquement, recadré et réétalonné.
+  clip2.mp4  — optionnel : reprendra sa place sur les survols des histoires.
+  clip3.mp4  — optionnel : reprendra sa place derrière la section À propos.
+Aucune modification de code nécessaire pour ajouter les clips 2 et 3.

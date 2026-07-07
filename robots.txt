@@ -1,0 +1,48 @@
+# robots.txt — Maison Lumière
+# Après déploiement Vercel : remplacez le domaine de la ligne Sitemap ci-dessous.
+
+# --- Moteurs de recherche classiques ---
+User-agent: *
+Allow: /
+
+# --- Crawlers IA / moteurs génératifs (GEO) : autorisés pour la citation ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://maison-lumiere.vercel.app/sitemap.xml
