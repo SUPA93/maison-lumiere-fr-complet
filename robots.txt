@@ -45,4 +45,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://maison-lumiere.vercel.app/sitemap.xml
+Sitemap: https://maison-lumiere-fr-complet.vercel.app/sitemap.xml

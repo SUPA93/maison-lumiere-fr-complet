@@ -2,7 +2,7 @@
 <!-- Après déploiement Vercel : remplacez le domaine par l'URL finale. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://maison-lumiere.vercel.app/</loc>
+    <loc>https://maison-lumiere-fr-complet.vercel.app/</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
